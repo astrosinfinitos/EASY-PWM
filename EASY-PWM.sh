@@ -89,10 +89,10 @@ function check_user(){
 function check_internet(){
   tput civis; ping -c 1 google.com > /dev/null 2>&1
   if [[ "$(echo $?)" -eq 0 ]]; then
-    echo -e "\n${green}[✔] CON CONECCIÓN A INTERNET${end}"
+    echo -e "\n${green}[✔] CON CONEXIÓN A INTERNET${end}"
     sleep 1.5
   else
-    echo -e "\n${red}[X] COMPRUEBA TU CONECCIÓN A INTERNET${end}"
+    echo -e "\n${red}[X] COMPRUEBA TU CONEXIÓN A INTERNET${end}"
     tput cnorm; exit 1
   fi
 }
