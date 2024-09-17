@@ -9,7 +9,7 @@ Esta utilidad está pensada para que sea completamente automática, esto te perm
 - Kali Linux 2023.4.
 
 ## Instalación:
-<strong>SE RECOMIENDA RALIZAR EL PROCEDIMIENTO EN UNA ISO NUEVA</strong>
+<strong>SE RECOMIENDA REALIZAR EL PROCEDIMIENTO EN UNA ISO NUEVA</strong>
 - Clonamos el repositorio
 ```
 git clone https://github.com/astrosinfinitos/EASY-PWM
