@@ -52,13 +52,11 @@ function banner2(){
   sleep 0.05
   echo -e "\t\t${turquoise}╚══════╝╚═╝${gray}░░${turquoise}╚═╝╚═════╝${gray}░░░░${turquoise}╚═╝${gray}░░░░░░░░░${turquoise}╚═╝${gray}░░░░░░░░${turquoise}╚═╝${gray}░░░${turquoise}╚═╝${gray}░░${turquoise}╚═╝${gray}░░░░░${turquoise}╚═╝${end}"
   sleep 0.05
-  echo -e "\n\t\t\t\t\t      ${gray}BY ${purple}Invertebrado"
+  echo -e "\n\t\t\t\t\t      ${gray}POR ${purple}invertebrado y modificado por astrosinfinitos"
   sleep 0.05
-  echo -e "\t\t\t\t${gray}PERSONAL PAGE ${yellow}https://invertebr4do.github.io"
+  echo -e "\t\t\t\t   ${gray}GITHUB ${turquoise}https://github.com/astrosinfinitos"
   sleep 0.05
-  echo -e "\t\t\t\t   ${gray}GITHUB ${turquoise}https://github.com/invertebr4do"
-  sleep 0.05
-  echo -e "\t\t\t\t  ${gray}INSPIRED IN ${red}s4vitar ${gray}BSPWM CONFIGURATIONS"
+  echo -e "\t\t\t\t  ${gray}INSPIRADO EN${red}s4vitar ${gray}BSPWM CONFIGURATIONS"
   sleep 0.05
   echo -e "\t\t\t${red}s4vitar's ${gray}YOUTUBE CHANNEL ${red}https://www.youtube.com/s4vitar"
   sleep 0.05
@@ -434,7 +432,7 @@ function extra_utilities(){
   sleep 2 & while [ "$(ps a | awk '{print $1}' | grep $!)" ] ; do for X in '-' '\' '|' '/'; do echo -en "\b$X"; sleep 0.1; done; done
   echo -e "${end}\n"
 
-  declare -a required_packages=(xclip caja flameshot scrub brightnessctl)
+  declare -a required_packages=(xclip caja flameshot scrub brightnessctl code-oss)
  
   package_installer
 
